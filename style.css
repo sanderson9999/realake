@@ -1,0 +1,103 @@
+#guide {
+  margin-left:10px;
+  margin-right:50px;
+  width:100%;
+  padding: 50px;
+  color: #f79e92; 
+  font-size: 18px;
+  font-family: Courier New, monospace;
+}
+
+#player {
+  margin-left:10px;
+  margin-right:50px;
+  width:100%;
+  padding: 50px;
+  color: #f79e92; 
+  font-size: 18px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #262626;
+  padding: 50px;
+}
+.grid-item {
+  background-color: #262626;
+  border: 3px;
+  padding: 20px;
+  font-size: 18px;
+  font-family: Courier New, monospace;
+  text-align: left;
+  color: #f79e92;
+}
+
+* { box-sizing: border-box; }
+
+.menu { width: 25%;
+  float: left;}
+
+.main {width: 75%;
+  float: left;}
+
+.col-1 {width: 8%}
+
+.col-2 {width: 17%}
+
+.col-3 {width: 25%}
+
+
+[class* = "col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2 {
+  color: #759685;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+
+h3 {
+  color: #86AABD;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+h4 {
+  color: #E36B5B;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+#essay {
+  margin-left:70px;
+  margin-right:50px;
+  width:90%;
+  color: #f79e92; 
+  font-size: 18px;
+  font-family: Courier New, monospace;
+}
+
+/* Solid border */
+hr.solid {
+  width:90%;
+}
+
+#citation {
+  margin-left:70px;
+  margin-right:50px;
+  width:90%;
+  color: #EBF5F1; 
+  font-size: 18px;
+  font-family: Courier New, monospace;
+}
